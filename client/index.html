@@ -62,7 +62,7 @@
       $.getJSON('/profile.json').done(function(response) {
         $('a.login').hide();
         $('.avatar').attr('src', response.user.avatar);
-        $('.fullname').text(response.user.nickname);
+        $('.fullname').text(response.user.fullName);
         $('.averageDailySteps').text(response.user.averageDailySteps);
         if (response.user.topBadges.length > 0) {
           var topBadge = response.user.topBadges[0];

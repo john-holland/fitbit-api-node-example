@@ -13,6 +13,7 @@ Expose the following environment variables by appending the following to your .b
 export CLIENT_ID=<your_client_id>
 export CLIENT_SECRET=<your_client_secret>
 export SESSION_SECRET=<your_session_secret>
+export CALLBACK_URL=<your_callback_url>
 #or expose these variables however is appropriate
 ```
 
